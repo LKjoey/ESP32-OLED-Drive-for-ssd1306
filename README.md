@@ -77,7 +77,7 @@ git clone https://github.com/LKjoey/esp32-oled-show.git
 
 将 **main.cpp、OLED.cpp、OLED_Data.cpp** 放置在项目 **src** 文件夹内
 
-将 **OLED.h、OLED_Data.h **放置在项目 **include**文件夹内
+将 **OLED.h、OLED_Data.h**放置在项目 **include**文件夹内
 
 ### 3. 修改引脚 
 在 **OLED.cpp** 中，检查以下配置：
