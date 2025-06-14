@@ -8,7 +8,10 @@
 
 适配  ESP32系列 开发板
 
-原视频链接：【江协科技 STM32 0.96寸OLED显示屏】https://www.bilibili.com/video/BV1EN41177Pc?vd_source=a30fc83aeeb8860c9b86b190dd6d1b82
+原视频链接：
+江协科技 STM32 0.96寸OLED显示屏
+
+https://www.bilibili.com/video/BV1EN41177Pc?vd_source=a30fc83aeeb8860c9b86b190dd6d1b82
 
 ### 特性
 
