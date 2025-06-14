@@ -39,9 +39,7 @@ https://www.bilibili.com/video/BV1EN41177Pc?vd_source=a30fc83aeeb8860c9b86b190dd
 - **操作系统**：Windows 1O
 - **开发框架**：Arduino、 PlatformIO
 
-## 快速开始
-
-### 项目说明：
+## 项目说明：
 
 **OLED.cpp**：OLED相关的函数的具体实现
 
@@ -58,7 +56,7 @@ https://www.bilibili.com/video/BV1EN41177Pc?vd_source=a30fc83aeeb8860c9b86b190dd
 **取模软件-PCtoLCD2002**：主要用于汉字、图片字模数据的生成
 
 
-
+## 快速开始
 ### 1. 克隆项目
 
 ```bash
