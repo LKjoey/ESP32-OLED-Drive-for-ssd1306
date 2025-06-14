@@ -79,7 +79,7 @@ git clone https://github.com/LKjoey/esp32-oled-show.git
 
 ### 3. 修改引脚 
 在 **OLED.cpp** 中，检查以下配置：
-- **I2C 引脚配置** ：确保 SCL 和 SDA 引脚与硬件接线一致（默认 SCL=5，SDA=4）。
+- **I2C 引脚配置** ：确保 SCL 和 SDA 引脚与硬件接线一致（默认 SCL=5，SDA=4）代码28行。
 ```c
 #define SCL_PIN          5
 #define SDA_PIN          4
