@@ -88,13 +88,13 @@ git clone https://github.com/LKjoey/esp32-oled-show.git
 
 编译烧录完成之后，出现以下现象表示成功，OLED屏幕上出现四行不同的字符，2s后清除屏幕字符，然后继续显示
 
-![OLED_Show](C:\Users\LK\Desktop\esp32-oled-show\img\OLED_Show.gif)
+![OLED_Show](./img/OLED_Show.gif)
 
 ### 5. 增加中文数据
 
 打开取模软件PCtoLCD2002.exe，先设置字模格式，然后在输入框中输入汉字，就可以生成字模数据了，将字模数据复制到OLED_Data.cpp中的汉字部分，如代码382行，按照上面的汉字格式进行添加，保持队形
 
-![get_data](C:\Users\LK\Desktop\esp32-oled-show\img\get_data.png)
+![get_data](./img/get_data.png)
 
 ## API 参考
 
