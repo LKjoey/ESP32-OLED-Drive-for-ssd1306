@@ -6,7 +6,7 @@
 
 本驱动库基于江协科技的 STM32 OLED 驱动代码移植而来，适配 ESP32-C3 的硬件 I2C 控制器，并针对 ESP-IDF 开发环境进行了优化。支持显示 ASCII 字符、汉字、图形等内容，适用于各种需要 OLED 显示屏的 ESP32-C3 项目。
 
-适配 合宙 ESP32C3 开发板
+适配  ESP32系列 开发板
 
 原视频链接：【江协科技 STM32 0.96寸OLED显示屏】https://www.bilibili.com/video/BV1EN41177Pc?vd_source=a30fc83aeeb8860c9b86b190dd6d1b82
 
