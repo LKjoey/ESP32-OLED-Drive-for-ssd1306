@@ -1,10 +1,10 @@
 # ESP32-C3 OLED 显示屏驱动
 
-本项目是基于**江协科技 STM32 OLED 显示屏驱动**移植而来的 ESP32-C3 OLED 显示屏驱动库，适用于 128x64 分辨率的 OLED 屏幕（I2C 接口）。本驱动库专为 ESP32-C3 开发板设计，支持 Arduino、 PlatformIO 开发环境。
+本项目是基于**江协科技 STM32 OLED 显示屏驱动**移植而来的 ESP32-C3 OLED 显示屏驱动库，适用于 128x64 分辨率的 OLED 屏幕（I2C 接口）。本驱动库专为 ESP32 开发板设计，支持 Arduino、 PlatformIO 开发环境。
 
 ## 项目简介
 
-本驱动库基于江协科技的 STM32 OLED 驱动代码移植而来，适配 ESP32-C3 的硬件 I2C 控制器。支持显示 ASCII 字符、汉字、图形等内容，适用于各种需要 OLED 显示屏的 ESP32-C3 项目。
+本驱动库基于江协科技的 STM32 OLED 驱动代码移植而来，适配 ESP32 的硬件 I2C 控制器。支持显示 ASCII 字符、汉字、图形等内容，适用于各种需要 OLED 显示屏的 ESP32 项目。
 
 适配  ESP32系列 开发板
 
@@ -26,7 +26,7 @@ https://www.bilibili.com/video/BV1EN41177Pc?vd_source=a30fc83aeeb8860c9b86b190dd
 
 ## 硬件要求
 
-- **开发板**：ESP32-C3
+- **开发板**：ESP32系列
 - **OLED 屏幕**：128x64 分辨率，I2C 接口
 - **接线**：
   - SCL -> GPIO 5
@@ -65,7 +65,7 @@ git clone https://github.com/LKjoey/esp32-oled-show.git
 
 ### 2. 配置目标
 
-确保已配置好 Arduino或者PlatformIO 开发环境，可以按照以下方式进行使用：
+确保已配置好 Arduino 或者 PlatformIO 开发环境，可以按照以下方式进行使用：
 
 **Arduino** 平台
 
@@ -75,11 +75,11 @@ git clone https://github.com/LKjoey/esp32-oled-show.git
 
 将 **main.cpp、OLED.cpp、OLED_Data.cpp** 放置在项目 **src** 文件夹内
 
-将 **OLED.h、OLED_Data.h**放置在项目 **include**文件夹内
+将 **OLED.h、OLED_Data.h** 放置在项目 **include** 文件夹内
 
 ### 3. 修改引脚 
 在 **OLED.cpp** 中，检查以下配置：
-- **I2C 引脚配置**：确保 SCL 和 SDA 引脚与硬件接线一致（默认 SCL=5，SDA=4）。
+- **I2C 引脚配置** ：确保 SCL 和 SDA 引脚与硬件接线一致（默认 SCL=5，SDA=4）。
 ```c
 #define SCL_PIN          5
 #define SDA_PIN          4
