@@ -69,7 +69,7 @@ git clone https://github.com/LKjoey/esp32-oled-show.git
 
 **Arduino** 平台
 
-将 **test.ino、OLED.cpp、OLED.h、OLED_Data.cpp、OLED_Data.h**  放置在同一个文件
+将 **test.ino、OLED.cpp、OLED.h、OLED_Data.cpp、OLED_Data.h**  放置在同一个文件夹下，文件夹名为test
 
 **PlatformIO** 平台
 
